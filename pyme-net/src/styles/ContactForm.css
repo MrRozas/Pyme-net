@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Oswald';
+}
+
+.page-container {
+  background-size: 100%;
+  margin-top: 3.75rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-page {
+  margin: 12.5rem auto;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3.125rem;
+  max-width: 62.5rem;
+  min-width: auto;
+  width: 80%;
+  padding: 3.125rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 0.625rem;
+}
+
+.contact-form,
+.other-contacts {
+  padding: 1.25rem;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.625rem;
+  font-family: 'Oswald';
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.875rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.313rem;
+}
+
+input,
+textarea {
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.313rem;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type='submit'],
+button {
+  background-color: #0085ff;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button[type='submit']:hover,
+button:hover {
+  background-color: #0053ba;
+}
+
+.other-contacts {
+  margin-top: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.other-contacts-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Oswald';
+}
+
+.other-contacts-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald';
+}
+
+.other-contacts-list-item {
+  margin-bottom: 0.625rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald';
+}
+
+.other-contacts-list-item button {
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Oswald';
+}
+
+.other-contacts-list-item button:hover {
+  background-color: #ddd;
+}
+
+.other-contacts-description {
+  font-family: 'Oswald';
+}

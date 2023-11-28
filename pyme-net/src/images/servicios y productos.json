@@ -1,0 +1,90 @@
+[
+    {
+        "Precio": "12.990",
+        "Link": "https://www.dropbox.com/s/7crhk5ba1w4mc93/slickgorilla.jpg?dl=1",
+        "Descripcion ": null,
+        "categoria": "productos",
+        "incluye Barba": false,
+        "name": "Afeitado"
+    },
+    {
+        "Precio": "9.000",
+        "Link": "https://cdnx.jumpseller.com/barbalarga/image/2180166/navaja_captainfawcett.jpg?1656090161",
+        "Descripcion ": null,
+        "categoria": "productos",
+        "incluye Barba": false,
+        "name": "Navaja"
+    },
+    {
+        "Precio": "25.000",
+        "Link": "https://cdnx.jumpseller.com/barbalarga/image/17015776/slick-lightwork_01.jpg?1656090508",
+        "Descripcion ": null,
+        "categoria": "productos",
+        "incluye Barba": false,
+        "name": "SLICK GORILLA LIGHTWORK"
+    },
+    {
+        "Precio": "5.600",
+        "Link": "https://cdnx.jumpseller.com/barbalarga/image/1206019/Captain_Fawcett_Shaving_Brush_72dpi-2.jpg?1656090214",
+        "Descripcion ": null,
+        "categoria": "productos",
+        "incluye Barba": false,
+        "name": "Cepillo"
+    },
+    {
+        "Precio": "10.000",
+        "Link": "https://cdnx.jumpseller.com/barbalarga/image/16180293/BL-Polera-PSYCHO-MOUSTACHE-web1.jpeg?1651156187",
+        "Descripcion ": null,
+        "categoria": "productos",
+        "incluye Barba": false,
+        "name": "Polera"
+    },
+    {
+        "Precio": "10.000",
+        "Link": " https://www.dropbox.com/s/n9ccp1jrcqff2t1/corte-pelo.jpg?dl=1",
+        "Descripcion ": "Servicio de corte de cabello que incluye lavado de pelo y uso de tijeras y m\u00e1quina de corte",
+        "categoria": "Servicio",
+        "incluye Barba": false,
+        "name": "Corte de cabello"
+    },
+    {
+        "Precio": "8.000",
+        "Link": "https://www.dropbox.com/s/i24a0nmcp37d060/corte-barba.jpg?dl=1",
+        "Descripcion ": "Servicio de corte de barba que incluye lavado de cara y uso de navaja y tijeras",
+        "categoria": "Servicio",
+        "incluye Barba": false,
+        "name": "Corte de barba"
+    },
+    {
+        "Precio": "16.000",
+        "Link": "https://www.dropbox.com/s/xy0ztkk6whfi8vt/combo1.jpg?dl=1",
+        "Descripcion ": "Combo de corte de cabello y barba que incluye lavado de pelo y cara, uso de tijeras, m\u00e1quina de corte y navaja",
+        "categoria": "Servicio",
+        "incluye Barba": true,
+        "name": "Combo corte de cabello y barba"
+    },
+    {
+        "Precio": "12.000",
+        "Link": "https://www.dropbox.com/home/Imagenes/Servicios?preview=afeitado.jpeg",
+        "Descripcion ": "Servicio de afeitado que incluye lavado de cara y uso de navaja y crema de afeitar",
+        "categoria": "Servicio",
+        "incluye Barba": true,
+        "name": "Afeitado"
+    },
+    {
+        "Precio": "20.000",
+        "Link": "https://www.dropbox.com/s/ctcqjckgzmjynl7/tinte.jpeg?dl=1",
+        "Descripcion ": "Servicio de tinte de cabello de distintos colores",
+        "categoria": "Servicio",
+        "incluye Barba": false,
+        "name": "Tinte de cabello"
+    },
+    {
+        "Precio": "15.000",
+        "Link": "https://www.dropbox.com/s/kao0zzdv9siv3ti/fade1.jpg?dl=1",
+        "Descripcion ": "Servicio de dise\u00f1o de barba que incluye lavado de cara y uso de navaja y tijeras",
+        "categoria": "Servicio",
+        "incluye Barba": true,
+        "name": "Dise\u00f1o de barba"
+    }
+]

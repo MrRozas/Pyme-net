@@ -1,0 +1,121 @@
+.carousel{
+    margin-top: 1%; 
+}
+.carousel-inner {
+    width:100%;
+    height:600px;
+    margin: auto;
+  }
+
+.product-carousel .carousel-inner {
+  display: flex;
+  height:300px;
+}
+
+.carousel-item img {
+    margin-top:0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.texto-Reserva {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+.Button-reserva {
+  background-color: transparent;
+  border-color: aliceblue;
+  color: white;
+  font-family: 'Oswald';
+}
+
+.Button-reserva:hover {
+  background-color: transparent;
+  border-color: rgb(207, 23, 23);
+  color: rgb(235, 7, 7);
+}
+
+
+.button-count{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(90, 89, 89);
+}
+.button-count:hover{
+    background-color: rgb(216, 215, 215);
+    color: rgb(0, 0, 0);
+    border-color: rgb(90, 89, 89);
+}
+
+.Col-button-count {
+    display: flex;
+    justify-content: left;
+    float: left
+}
+.Col-button-cart {
+    display: flex;
+    justify-content: right;
+    float: right
+}
+
+
+.align-left {
+    text-align: left;
+  }
+.text-right {
+    text-align: right;
+  }
+.nombre-producto{
+    font-size: 95%;
+    text-align: left;
+}
+.precio-text{
+    font-size: 95%;
+    text-align: right;
+}
+
+
+.card-barber {
+  width: 20%;
+  height: 30%;
+}
+.card-barber-img{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  position: relative;
+}
+.card-barber-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.card-barber-title, .card-barber-text {
+  color: white;
+}
+
+.card-barber-overlay.show {
+  opacity: 1;
+}

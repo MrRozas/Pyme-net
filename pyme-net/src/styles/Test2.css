@@ -1,0 +1,84 @@
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: -80px; /* Elimina el margen inferior */
+  }
+  
+  .formulario-container {
+    max-width: 400px;
+    padding: 20px;
+    /* Resto de estilos... */
+  }
+  
+  .formulario-container select.input {
+    /* Estilos adicionales específicos para el select */
+    background-color: #fff;
+    appearance: none;
+    cursor: pointer;
+  }
+
+  .formulario-container select.input:focus {
+    /* Estilos adicionales específicos para el select enfocado */
+    outline: none;
+    border-color: #4caf50;
+  }
+
+  .formulario-container .form-group:nth-child(6) {
+    align-self: flex-end; /* Alineación vertical en la parte inferior */
+  }
+
+  .formulario-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alineación vertical superior */
+    margin-bottom: 20px;
+  }
+  
+  .formulario-column {
+    flex-basis: calc(50% - 10px); /* Resta el espacio entre columnas */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'],
+  input[type='datetime-local'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  

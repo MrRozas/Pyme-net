@@ -1,0 +1,12 @@
+version: '3'
+services:
+  react-ui:
+    build:
+      context: ./pyme-net
+    ports:
+      - "3000:3000"
+    container_name: react-ui
+    stdin_open: true
+    volumes:
+       - ./pyme-net:/usr/src/app/pyme-net
+       - /usr/src/app/pyme-net/node_modules

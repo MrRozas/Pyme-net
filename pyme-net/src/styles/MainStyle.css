@@ -1,0 +1,58 @@
+.Main-title {
+    font-family: 'Oswald', sans-serif;
+  }
+.Main-text-navbar{
+  font-family: 'Oswald', sans-serif !important
+}
+
+/* styles.css */
+
+.nosotros-section {
+  background-color: #f8f8f8;
+}
+
+.nosotros-container {
+  padding: 0;
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nosotros-grid-image {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.nosotros-card {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.nosotros-card-title {
+  font-family: 'Oswald';
+  margin-bottom: 1rem;
+}
+
+.nosotros-card-content {
+  margin-bottom: 1rem;
+}
+.cardStyle {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.cardTitle {
+  font-family: 'Oswald';
+  margin-bottom: 1rem;
+}
+
+.cardText {
+  font-family: 'Oswald';
+  margin-bottom: 1rem;
+}
+  
